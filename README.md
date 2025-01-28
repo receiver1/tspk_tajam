@@ -1,7 +1,7 @@
 # Tajam
 This is a company website built from a provided design, made as a college entrance exam.
 
-## Project requirements:
+## Project requirements
 * develop a website in accordance with Yandex BEM technologies
 * make the website adaptable for specific screen resolutions
 * use javascript to create modal windows
