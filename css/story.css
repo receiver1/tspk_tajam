@@ -1,0 +1,47 @@
+/* ================= BEGIN STORY BLOCK ================= */
+.story__block
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.story__block__first,
+.story__block__second
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.story__block__first { width: 30%; }
+.story__block__second { width: 50%; }
+
+@media screen and (max-width: 1115px)
+{
+    .story__block__first
+    {
+        width: 35%;
+    }
+
+    .story__block__second
+    {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 578px)
+{
+    .story__block__first,
+    .story__block__second
+    {
+        width: 100%;
+        align-items: center;
+        padding: 1rem;
+    }
+}
+/* ================= END STORY BLOCK ================= */

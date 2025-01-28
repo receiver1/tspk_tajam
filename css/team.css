@@ -1,0 +1,90 @@
+/* ================= BEGIN TEAM BLOCK ================= */
+
+.team__container
+{
+    background: linear-gradient(to right, #090036cc, #311d5ecc), url('../img/main.png');
+    background-size: cover;
+    height: 814px;
+}
+
+.team__block
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.team__block__header
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team__block__header > .title
+{
+    font-size: 26px;
+    margin-bottom: .5rem;
+}
+
+.team__block__items
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.team__block__item
+{
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+}
+
+.team__block__item__bottom
+{
+    border: 1px solid var(--color-gray);
+}
+
+.team__block__bottom
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1155px)
+{
+    .team__container
+    {
+        background: linear-gradient(to right, #090036cc, #311d5ecc), url('../img/main.png');
+        background-size: cover;
+        height: 1104px;
+    }
+}
+
+@media screen and (max-width: 578px)
+{
+    .team__container
+    {
+        background: linear-gradient(to right, #090036cc, #311d5ecc), url('../img/main.png');
+        background-size: cover;
+        height: 934px;
+    }
+
+    .team__block__item
+    {
+        width: 43%;
+        display: flex;
+        flex-direction: column;
+        margin: 12px;
+    }
+}
+/* ================= END TEAM BLOCK ================= */

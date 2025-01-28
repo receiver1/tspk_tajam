@@ -1,0 +1,52 @@
+/* ================= BEGIN HEADER BLOCK ================= */
+.header__container
+{
+    background: linear-gradient(to right, #090036cc, #311d5ecc), url('../img/header.png');
+    background-size: cover;
+    height: 760px;
+}
+
+.header__block
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+}
+
+.header__block__carousel
+{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 5rem;
+}
+
+.header__block__carousel__item
+{
+    background: transparent;
+    border: 2px solid var(--color-gray);
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.header__block__carousel > .active
+{
+    background: var(--color-main);
+    border-color: var(--color-main);
+}
+
+@media screen and (max-width: 1115px)
+{
+    .header__block { padding: 2rem 2rem 0 2rem }
+}
+
+@media screen and (max-width: 578px)
+{
+    .header__block { padding: 1rem; }
+}
+/* ================= END HEADER BLOCK ================= */

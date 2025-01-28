@@ -1,0 +1,193 @@
+
+@import "header.css";
+@import "navbar.css";
+@import "story.css";
+@import "expertise.css";
+@import "team.css";
+@import "works.css";
+@import "comments.css";
+@import "contact.css";
+@import "footer.css";
+
+/* ================= BEGIN GLOBAL BLOCK ================= */
+:root
+{
+    --color-main: #00e0d0;
+    --color-gray: #999999;
+    --color-light: #cccccc;
+}
+
+/* 
+* Должен быть плавный скроллинг, но у меня не работает, 
+*         поэтому сделал для якорей в JS 
+*/
+*
+{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body,
+textarea,
+button
+{
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    resize: none;
+}
+
+.title,
+.subtitle
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    margin-top: 0;
+}
+
+a
+{
+    color: #fff;
+    text-decoration: none;
+}
+/*
+*   Размер шрифта в зависимости от размера окна
+*/
+@media (min-width: 1200px) 
+{
+    body { font-size: 1rem; }
+}
+@media (max-width: 1199px) and (min-width: 900px) 
+{
+    body { font-size: 0.8rem; }
+}
+@media (max-width: 899px)
+{
+    body { font-size: 0.7rem; }
+}
+/* ================= END GLOBAL BLOCK ================= */
+
+.font-normal { font-weight: normal; }
+
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 860px;
+    height: 100%;
+}
+
+.container-medium { max-width: 960px; }
+.container-big { max-width: 1140px; }
+
+.container-main
+{
+    background: linear-gradient(to right, #090036cc, #311d5ecc), url('../img/main.png');
+    background-size: cover;
+    height: 485px;
+}
+
+.center-text
+{
+    text-align: center;
+}
+
+.heading-line
+{
+    background: #00e0d0;
+    width: 53px;
+    height: 2px;
+    display: inline-block;
+}
+
+/* ================= ELEMENTS ================= */
+.btn-outline
+{
+    background: transparent;
+    border: 1px solid var(--color-main);
+    padding: 10px;
+    border-radius: .25rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--color-main);
+    transition: .5s ease;
+}
+
+.btn-outline:hover
+{
+    color: #000;
+    background: var(--color-main);
+}
+
+.btn-play
+{
+    transition: .5s ease;
+    border-radius: 100%;
+}
+
+.btn-play:hover
+{
+    transform: scale(90%);
+    fill: var(--color-main);
+}
+
+.img-responsive
+{
+    width: 100%;
+    height: 100%;
+}
+
+input[type="text"], textarea
+{
+    font-size: 14px;
+    padding: 15px;
+    color: var(--color-gray);
+    border: 1px solid var(--color-light);
+    transition: .5s ease;
+}
+
+/* ================= MARGINS AND PADDINGS ================= */
+.mt-0 { margin-top: 0; }
+
+.mb-0 { margin-bottom: 0; }
+.mb-2 { margin-bottom: 2rem; }
+.mb-3 { margin-bottom: 3rem; }
+.mb-4 { margin-bottom: 4rem; }
+
+.mr-1 { margin-right: 1rem; }
+
+/*
+*   Используется только в модальном окне
+*/
+.my-1 { margin-top: 1rem; margin-bottom: 1rem; }
+
+/*
+*   Используется только в navbar
+*/
+.px-2 { padding-left: 2rem; padding-right: 2rem; }
+
+.py-3 { padding-top: 3rem; padding-bottom: 3rem; }
+.py-4 { padding-top: 4rem; padding-bottom: 4rem; }
+.py-5 { padding-top: 5rem; padding-bottom: 5rem; }
+
+/* ================= SIZES ================= */
+/*
+*   Используется только в блоке CONTACT, в кнопке SUBMIT
+*/
+.w-40 { width: 40%; }
+
+/* ================= FLEX ================= */
+.flex { display: flex; }
+.flex-column { flex-direction: column; }
+.flex-center { justify-content: center; align-items: center; }
+
+/* ================= COLORS ================= */
+.color-black { color: #000; }
+.color-light { color: var(--color-light); }
+.color-gray { color:var(--color-gray); }
+
+.bg-black { background-color: #000; }
+.bg-gray { background-color:var(--color-gray); }

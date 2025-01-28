@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="text/html; charset=Windows-1251" http-equiv="content-type">
+        
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/modal.css">
+
+        <title>Index</title>
+    </head>
+
+    <body>
+        <!-- BEGIN HEADER -->
+        <header>
+            <div class="header__container" id="home">
+                <div class="container container-big">
+                    <!-- BEGIN NAVBAR -->
+                    <nav class="navbar px-2">
+                        <div class="logo">
+                            <img src="img/logo.png" class="mr-1">
+                            <h2 class="brand">tajam</h2>
+                        </div>
+                        <ul class="navbar__items">
+                            <a href="#home" class="navbar__item">HOME</a>
+                            <a href="#about" class="navbar__item">ABOUT</a>
+                            <a href="#expertise" class="navbar__item">EXPERTISE</a>
+                            <a href="#teams" class="navbar__item">TEAMS</a>
+                            <a href="#works" class="navbar__item">WORKS</a>
+                            <a href="#comments" class="navbar__item">PEOPLE SAY</a>
+                            <a href="#contact" class="navbar__item">CONTACT</a>
+                        </ul>
+                    </nav>
+                    <!-- END NAVBAR -->
+
+                    <div class="header__block">
+                        <!-- BEGIN LANDING -->
+                        <div class="container flex flex-column flex-center">
+                            <div class="center-text">
+                                <h1 class="mb-0">We Are Awesome Creative Agency</h1>
+                                <span class="heading-line"></span>
+                                <p class="mb-4">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+                                <button onclick="test_modal()" class="btn-outline">LEARN MORE</button>
+                            </div>
+                        </div>
+                        <!-- END LANDING -->
+    
+                        <!-- BEGIN CAROUSEL -->
+                        <div class="header__block__carousel">
+                            <a class="header__block__carousel__item active"></a>
+                            <a class="header__block__carousel__item"></a>
+                            <a class="header__block__carousel__item"></a>
+                            <a class="header__block__carousel__item"></a>
+                        </div>
+                        <!-- END CAROUSEL -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- END HEADER -->
+
+        <!-- BEGIN MAIN -->
+        <main>
+            <!-- BEGIN MODALS BLOCK -->
+            <div id="modals__block">
+                
+            </div>
+            <!-- END MODALS BLOCK -->
+
+            <!-- BEGIN STORY BLOCK -->
+            <div class="container container-big py-5" id="about">
+                <div class="story__block">
+                    <div class="story__block__first">
+                        <img src="img/our-story.png">
+                    </div>
+                    <div class="story__block__second">
+                        <h1 class="title">OUR STORY</h1>
+                        <div class="color-gray">
+                            <p class="mb-2">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus</p>
+                            <p class="mb-3">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                        </div>
+                        <a href="" class="btn-outline">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+            <!-- END STORY BLOCK -->
+
+            <!-- BEGIN VIDEO BLOCK -->
+            <div class="container-main flex flex-column flex-center py-4"> 
+                <div class="container flex flex-center">
+                    <svg fill="#fff" height="128" width="128" xmlns="http://www.w3.org/2000/svg" style="" class="btn-play">
+                        <rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none" style="" class=""/>
+                        <g class="currentLayer" style="">
+                            <title>Layer 1</title>
+                            <path d="M0 0h48v48H0z" fill="none" id="svg_1" class=""/>
+                            <path d="M64.00023702358521,4 C30.850106027028232,4 4,30.967869467207493 4,64.26339554952756 s26.850106027028232,60.26339554952756 60.000237023585214,60.26339554952756 s60.000237023585214,-26.967869467207493 60.000237023585214,-60.26339554952756 S97.1503680201422,4 64.00023702358521,4 zm-12.000047609847798,87.38192272269316 V37.144868376361956 l36.000143855197166,27.1185292334701 l-36.000143855197166,27.1185292334701 z" id="svg_2" class=""/>
+                        </g>
+                    </svg>
+                </div>
+                <h3 class="mb-0">WATCH OUR STORY</h3>
+                <small class="mt-0">VIEWED <span id="video__block__views">0</span> TIMES</small>
+            </div>
+            <!-- END VIDEO BLOCK -->
+
+            <!-- BEGIN EXPERTISE BLOCK -->
+            <div class="container container-medium color-black py-4" id="expertise">
+                <div class="flex flex-column flex-center">
+                    <h2 class="mb-0">EXPERTISE</h2>
+                    <p class="mt-0 color-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <span class="heading-line bg-gray mb-4"></span>
+                    <div class="expertise__block">
+                        <div class="expertise__block__item">
+                            <div class="expertise__block__item__container">
+                                <img src="img/expertise/icon1.png" alt="expertise_icon">
+                                <h4>WEB DESIGN &amp; DEVELOPMENT</h4>
+                                <p class="color-gray">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                            </div>
+                        </div>
+                        <div class="expertise__block__item">
+                            <div class="expertise__block__item__container">
+                                <img src="img/expertise/icon2.png" alt="expertise_icon">
+                                <h4>BRANDING IDENTITY</h4>
+                                <p class="color-gray">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                            </div>
+                        </div>
+                        <div class="expertise__block__item">
+                            <div class="expertise__block__item__container">
+                                <img src="img/expertise/icon3.png" alt="expertise_icon">
+                                <h4>MOBILE APP</h4>
+                                <p class="color-gray">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                            </div>
+                        </div>
+                        <div class="expertise__block__item">
+                            <div class="expertise__block__item__container">
+                                <img src="img/expertise/icon4.png" alt="expertise_icon">
+                                <h4>SEARCH ENGINE OPTIMIZATION</h4>
+                                <p class="color-gray">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                            </div>
+                        </div>
+                        <div class="expertise__block__item">
+                            <div class="expertise__block__item__container">
+                                <img src="img/expertise/icon5.png" alt="expertise_icon">
+                                <h4>GAME DEVELOPMENT</h4>
+                                <p class="color-gray">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                            </div>
+                        </div>
+                        <div class="expertise__block__item">
+                            <div class="expertise__block__item__container"></div>
+                                <img src="img/expertise/icon6.png" alt="expertise_icon">
+                                <h4>MADE WITH LOVE</h4>
+                                <p class="color-gray">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END EXPERTISE BLOCK -->
+
+            <!-- BEGIN TEAM BLOCK -->
+            <div class="team__container" id="teams">
+                <div class="team__block py-5">
+                    <div class="team__block__header">
+                        <h1 class="title">MEET OUR AMAZING TEAM</h1>
+                        <h3 class="subtitle">Lorem ipsum dolor sit amet proin gravida nibh vel velit</h3>
+                        <span class="heading-line bg-gray"></span>
+                    </div>
+                    <div class="team__block__items">
+                        <div class="team__block__item">
+                            <img src="img/team/1.png">
+                            <div class="team__block__item__bottom">
+                                <h3 class="mb-0">SEMF UCUK</h3>
+                                <p class="mt-0 color-light">CEO & FOUNDER</p>
+                            </div>
+                        </div>
+                        <div class="team__block__item">
+                            <img src="img/team/2.png">
+                            <div class="team__block__item__bottom">
+                                <h3 class="mb-0">DIK ADALIN</h3>
+                                <p class="mt-0 color-light">ENGINEERING</p>
+                            </div>
+                        </div>
+                        <div class="team__block__item">
+                            <img src="img/team/3.png">
+                            <div class="team__block__item__bottom">
+                                <h3 class="mb-0">ZERO TWO</h3>
+                                <p class="mt-0 color-light">FRANX PILOT</p>
+                            </div>
+                        </div>
+                        <div class="team__block__item">
+                            <img src="img/team/4.png">
+                            <div class="team__block__item__bottom">
+                                <h3 class="mb-0">HOME PET</h3>
+                                <p class="mt-0 color-light">NEED TO BUY FOOD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team__block__bottom">
+                        <h4 class="font-normal">Become part of our dream team, let's join us!</h4>
+                        <a href="#" class="btn-outline">WE ARE HIRING</a>
+                    </div>
+                </div>
+            </div>
+            <!-- END TEAM BLOCK -->
+
+            <!-- BEGIN WORKS BLOCK -->
+            <div class="works__block py-5" id="works">
+                <div class="container container-big color-black">
+                    <div class="works__block__header mb-4">
+                        <h1 class="title">OUR WORKS</h1>
+                        <a href="#" class="works__block__right">
+                            <p>See All Project in dribble</p>
+                            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+                                <polygon stroke-width="0" id="svg_1" points="7.0398454666137695,2.8771071434020996 8.971879959106445,1.0664091110229492 24.960155487060547,16 8.971879959106445,30.93359088897705 7.0398454666137695,29.132227897644043 21.086753845214844,16 "/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="works__block__main">
+                    <div class="works__block__item"><img src="img/works/1.jpg"></div>
+                    <div class="works__block__item"><img src="img/works/2.jpg"></div>
+                    <div class="works__block__item"><img src="img/works/3.jpg"></div>
+                    <div class="works__block__item"><img src="img/works/4.jpg"></div>
+                    <div class="works__block__item"><img src="img/works/5.jpg"></div>
+                    <div class="works__block__item"><img src="img/works/6.jpg"></div>
+                    <div class="works__block__item"><img src="img/works/7.jpg"></div>
+                    <div class="works__block__item"><img src="img/works/8.jpg"></div>
+                    <div class="works__block__item"><img src="img/works/9.jpg"></div>
+                    <div class="works__block__item"><img src="img/works/10.jpg"></div>
+                    <div class="works__block__item"><img src="img/works/11.jpg"></div>
+                    <div class="works__block__item"><img src="img/works/12.jpg"></div>
+                </div>
+                <a href="#" class="btn-outline">LOAD MORE</a>
+            </div>
+            <!-- END WORKS BLOCK -->
+
+            <!-- BEGIN COMMENTS BLOCK -->
+            <div class="comments__container" id="comments">
+                <div class="container">
+                    <div class="comments__block py-4">
+                        <img src="img/quotes.png" width="32">
+                        <h3 class="comments__block__quote title" id="comments__quote">
+                            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                        </h3>
+                        <div>
+                            <h3 class="mb-0">JANE GALADRIEL</h3>
+                            <p class="mt-0 color-light">CEO TENGKUREP</p>
+                        </div>
+                        <div class="comments__users__block">
+                            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" class="arrow" id="comments__user__previous">
+                                <polygon points="6.454651832580566,2.0200400352478027 8.51286506652832,0.09108257293701172 25.54534912109375,16.000003218650818 8.51286506652832,31.908917784690857 6.454651832580566,29.98990571498871 21.418983459472656,16.000003218650818 " id="svg_5" stroke-width="0" transform="rotate(180, 16, 16)"/>
+                            </svg>
+                            <div class="item" id="comments__user__1"><img src="img/commentators/1.png"></div>
+                            <div class="item" id="comments__user__2"><img src="img/commentators/2.png"></div>
+                            <div class="item" id="comments__user__3"><img src="img/commentators/3.png"></div>
+                            <div class="item active" id="comments__user__4"><img src="img/commentators/4.png"></div>
+                            <div class="item" id="comments__user__5"><img src="img/commentators/5.png"></div>
+                            <div class="item" id="comments__user__6"><img src="img/commentators/6.png"></div>
+                            <div class="item" id="comments__user__7"><img src="img/commentators/7.png"></div>
+                            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" class="arrow" id="comments__user__next">
+                                <polygon points="6.454651832580566,2.0200400352478027 8.51286506652832,0.09108257293701172 25.54534912109375,16.000003218650818 8.51286506652832,31.908917784690857 6.454651832580566,29.98990571498871 21.418983459472656,16.000003218650818 " id="svg_5" stroke-width="0"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END COMMENTS BLOCK -->
+
+            <!-- BEGIN CONTACT BLOCK -->
+            <div class="container container-big py-4">
+                <div class="contact__block" id="contact">
+                    <div class="contact__block__first">
+                        <h1 class="title">GIVE US A GOOD NEWS</h1>
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="Subject">
+                        <textarea rows="10" cols="15" placeholder="Your message"></textarea>
+                        <button onclick="open_text_modal('APPEAL', 'Your message has been sent to the administration, the answer will come to your email!', 'Close')" class="btn-outline w-40">SUBMIT</button>
+                    </div>
+                    <div class="contact__block__second">
+                        <h1 class="title">OUR HAPPY CLIENT</h1>
+                        <div class="clients__block">
+                            <div class="clients__block__item"><img src="img/clients/zara.png" class="img-responsive"></div>
+                            <div class="clients__block__item"><img src="img/clients/mango.png" class="img-responsive"></div>
+                            <div class="clients__block__item"><img src="img/clients/barneys-newyork.png" class="img-responsive"></div>
+                            <div class="clients__block__item"><img src="img/clients/gucci.png" class="img-responsive"></div>
+                            <div class="clients__block__item"><img src="img/clients/calvin_klein.png" class="img-responsive"></div>
+                            <div class="clients__block__item"><img src="img/clients/nike.png" class="img-responsive"></div>
+                            <div class="clients__block__item"><img src="img/clients/converse.png" class="img-responsive"></div>
+                            <div class="clients__block__item"><img src="img/clients/puma.png" class="img-responsive"></div>
+                            <div class="clients__block__item"><img src="img/clients/levis.png" class="img-responsive"></div>
+                            <div class="clients__block__item"><img src="img/clients/billabong.png" class="img-responsive"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END CONTACT BLOCK -->
+        </main>
+        <!-- END MAIN -->
+
+        <!-- BEGIN FOOTER -->
+        <footer>
+            <div class="footer__container">
+                <div class="container container-big">
+                    <div class="footer__block py-3">
+                        <div class="footer__block__item">
+                            <div class="logo">
+                                <img src="img/logo.png" class="mr-1">
+                                <h2 class="brand">tajam</h2>
+                            </div>
+                            <p>lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
+                        </div>
+                        <div class="footer__block__item">
+                            <h3>OUR STUDIO</h3>
+                            <ul class="footer__list">
+                                <li>
+                                    <img src="img/footer/gps.png">
+                                    <span>
+                                        Ruko cucruk, Jl. Radio luar dalem jos
+                                        No.12 - 13, Kalideres - Jakarta Barat
+                                        11480 - Indonesia
+                                    </span>
+                                </li>
+                                <li>
+                                    <img src="img/footer/call.png">
+                                    <a href="tel:(+62)-21-2224-3333">(+62) 21-2224 3333</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__block__item">
+                            <h3>STAY IN TOUCH</h3>
+                            <form method="post">
+                                <input type="text" placeholder="Subscribe our newsletter" class="footer__input">
+                                <button class="footer__button"><img src="img/footer/send.png" width="36"></button>
+                            </form>
+                            <div class="footer__socials">
+                                <a href="//facebook.com" class="footer__socials__item"><img src="img/socials/facebook-24.png" class="img-responsive"></a>
+                                <a href="//twitter.com" class="footer__socials__item"><img src="img/socials/twitter-24.png" class="img-responsive"></a>
+                                <a href="//instagram.com" class="footer__socials__item"><img src="img/socials/instagram-6-24.png" class="img-responsive"></a>
+                                <a href="//google.com" class="footer__socials__item"><img src="img/socials/google-plus-24.png" class="img-responsive"></a>
+                                <a href="//youtube.com" class="footer__socials__item"><img src="img/socials/youtube-6-24.png" class="img-responsive"></a>
+                            </div>
+                        </div>
+                        <div class="footer__bottom">
+                            <ul class="footer__bottom__nav">
+                                <li><a href="#">HELP</a></li>
+                                <li><a href="#">TERMS & CONDITION</a></li>
+                                <li><a href="#">PRIVACY</a></li>
+                            </ul>
+                            <p> Copyright &copy; 2015-Tajam Creative</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- END FOOTER -->
+
+        <script src="js/index.js"></script>
+        <script src="js/modal.js"></script>
+        <!--<script src="js/anchor.js"></script>-->
+        <script src="js/comments.js"></script>
+    </body>
+</html>

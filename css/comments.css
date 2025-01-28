@@ -1,0 +1,76 @@
+/* ================= BEGIN COMMENTS BLOCK ================= */
+.comments__container
+{
+    background: linear-gradient(to right, #090036cc, #311d5ecc), url('../img/main.png');
+    background-size: cover;
+    height: 524px;
+}
+
+.comments__block
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.comments__block__quote
+{
+    display: flex;
+    margin-top: 3rem;
+    font-weight: lighter;
+}
+
+.comments__users__block
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.comments__users__block > .arrow
+{
+    fill: #ffffff99;
+    transition: .5s ease;
+}
+
+.comments__users__block > .arrow:hover
+{
+    fill: #ffffffff;
+    cursor: pointer
+}
+
+.comments__users__block > .item
+{
+    width: 9%;
+    height: auto;
+}
+
+.comments__users__block > .item > img
+{
+    width: 60%;
+    height: auto;
+    border-radius: 100%;
+    transition: .5s ease;
+    user-select: none;
+}
+
+.comments__users__block > .active > img
+{
+    width: 100%;
+}
+
+@media screen and (max-width: 1115px)
+{
+    .comments__block { padding: 2rem; }
+}
+
+@media screen and (max-width: 578px)
+{
+    .comments__block { padding: 1rem; }
+}
+/* ================= END COMMENTS BLOCK ================= */

@@ -1,0 +1,63 @@
+/* ================= BEGIN NAVBAR BLOCK ================= */
+.logo
+{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.logo > .brand
+{
+    background: linear-gradient(to right, #3399cc, var(--color-main));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 28px;
+    font-weight: lighter;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.navbar
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navbar__items
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navbar__item
+{
+    margin-left: 7px;
+    margin-right: 7px;
+    font-weight: bold;
+    transition: .5s ease;
+}
+
+.navbar__item:hover
+{
+    color: var(--color-main);
+}
+
+@media screen and (max-width: 578px)
+{
+    .logo
+    {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .navbar__items
+    {
+        display: none;
+    }
+}
+/* ================= END NAVBAR BLOCK ================= */

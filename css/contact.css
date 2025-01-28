@@ -1,0 +1,83 @@
+/* ================= BEGIN CONTACT BLOCK ================= */
+.contact__block
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: #000;
+}
+
+.contact__block__first
+{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-right: 4rem;
+}
+
+.contact__block__first > .title,
+.contact__block__second > .title
+{
+    margin-bottom: 2rem;
+}
+
+.contact__block__first > input,
+.contact__block__first > textarea
+{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.contact__block__second
+{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 4rem;
+}
+
+.clients__block
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients__block__item
+{
+    width: 50%;
+    flex: 0 0 auto;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    user-select: none;
+}
+
+@media screen and (max-width: 1115px)
+{
+    .contact__block__first,
+    .contact__block__second
+    {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 578px)
+{
+    .contact__block__first,
+    .contact__block__second
+    {
+        width: 100%;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .clients__block__item
+    {
+        padding: 1rem 2rem 1rem 2rem;
+    }
+}
+/* ================= END CONTACT BLOCK ================= */
